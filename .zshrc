@@ -107,3 +107,4 @@ source $ZSH/oh-my-zsh.sh
 alias vi='nvim'
 alias vim='nvim'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias rb='git branch | grep -v "master" | xargs git branch -D'
